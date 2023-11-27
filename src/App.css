@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* body{
+
+  font-family: sans-serif;
+  color: #000;
+
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./img.jpg);
+  background-size: cover;
+
+} */
+.App{
+  background-color: white;
+  width: 25%;
+  height: 60vh; 
+  /* display: flex;
+  flex-direction: column; 
+  justify-content: center; */
+  align-items: center;
+
+  padding: 60px 40px 50px 40px;
+  margin: 0 auto;
+  margin-top: 200px; 
+  border-radius: 30px;
+
+
+ 
+
+}
+/* .div{
+   
+  font-family: sans-serif;
+  color: #000;
+
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./img.jpg);
+  background-size: cover;
+} */
+.title{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+
+}
+.logo-holder{
+  display: block;
+  justify-content: center;
+  padding-top: 0%;
+  padding-bottom: 2px;
+  font-size: xx-small;
+  
+}
+
+.logo{
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  text-align: center;
+
+}
+.logo>img{
+
+  width: 200px;
+
+  
+}
+.tableButton{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ z-index: 999;
+ 
+}
+.buttonText{
+    background-color: #ccc;
+    color:#000;
+    padding: 0.625rem;
+}
+.buttonIcon{
+  background-color: blue;
+  padding: 0.625rem;
+  color: white;
+
+}
+
+/* Add this CSS in your project's stylesheet or a separate CSS file */
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  width: 300px;
+  text-align: center;
+}
+
+.popup p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.popup button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  background-color: #0056b3;
+}
+
+
+
+/* just for Demo */
+
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+
+
+

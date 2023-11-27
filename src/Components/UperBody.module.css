@@ -1,0 +1,113 @@
+/* UperBody.module.css */
+
+.left-side {
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 55px;
+    color: blue;
+}
+
+.head {
+    background-color: aliceblue;
+    padding: 25px;
+}
+
+.adjust {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    left: auto;
+    width: 35%;
+    border-radius: 10px;
+    height: 3.5rem;
+    padding: 0 15px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 8px #ddd;
+}
+
+input {
+    background: transparent;
+    border: none;
+    height: 50%;
+    font-size: 1.25rem;
+    width: 85%;
+    margin-left: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+#search-icon {
+    color: royalblue;
+}
+
+.right-side {
+    position: absolute;
+    left: 1890px;
+    margin-bottom: 79px;
+}
+
+.push-to-shopify-button {
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.push-to-shopify-button:hover {
+    background-color: white;
+    color: blue;
+}
+
+
+
+
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .popup p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .popup button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .popup button:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+
+  
